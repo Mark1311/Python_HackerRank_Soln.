@@ -1,5 +1,9 @@
-Solution:- def myfun(n):
+Solution:- 
+
+n = int(input("Enter Your Value"))
+
+def myfun(n):
     for i in range(n):
         print(i+1, end="")
         
-myfun(3)
+myfun(n)
